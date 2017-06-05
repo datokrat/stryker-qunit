@@ -1,0 +1,20 @@
+{
+  "name": "stryker-qunit",
+  "version": "1.0.0",
+  "description": "A test framework adapter for Stryker and QUnit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc index.ts"
+  },
+  "keywords": [
+    "stryker",
+    "mutation-testing",
+    "qunit"
+  ],
+  "author": "Paul Reichert",
+  "license": "MIT",
+  "dependencies": {
+    "stryker-api": "^0.5.1"
+  }
+}
