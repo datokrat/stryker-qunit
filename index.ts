@@ -30,7 +30,7 @@ export class QUnitTestFramework implements TestFramework {
                 QUnit.originalTest = QUnit.originalTest || QUnit.test;
                 QUnit.test = function () {
                     if (${JSON.stringify(ids)}.indexOf(i++) >= 0) {
-                        QUnit.originalText.apply(this, arguments);
+                        QUnit.originalTest.apply(this, arguments);
                     }
                 };
             })();
